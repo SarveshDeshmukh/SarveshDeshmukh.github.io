@@ -25,6 +25,10 @@ h2{
 	margin-bottom: 20px;
 	color: #1f2833; 
 }
+
+p{
+	line-height: 1.7em;
+}
 .clear-fix{
 	display: block;
 	content: "";
@@ -153,4 +157,40 @@ nav ul li a{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #e2f202;
+}
+
+/*_______ABOUT SECTION______*/
+
+.about{
+	background-color: #0b0c10;
+	padding-bottom: 70px;
+}
+.about h2{
+	color: #66fcf1;
+}
+
+.about p{
+	color: #e0e0e0;
+}
+
+/*_______SKILLS SECTION______*/
+.skills-list{
+	list-style: none;
+	text-align: center;
+}
+.skill{
+	padding: 50px 0;
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+.skill h5{
+	font-size: 1.2em;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.skill p{
+	color: #6e6e6e;
+	font-size: 0.875em;
 }
