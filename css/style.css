@@ -29,7 +29,7 @@ h2{
 p{
 	line-height: 1.7em;
 }
-.clear-fix{
+.clear-fix:after{
 	display: block;
 	content: "";
 	visibility: hidden;
@@ -50,7 +50,8 @@ p{
 	margin: 0 auto;
 	padding: 0 20px;	
 }
-.demo-btn, .code-btn{
+
+.demo-btn, .code-btn, .button{
 	display: inline-block;
 	padding: 2 px;
 	margin: 10px;
@@ -67,7 +68,7 @@ p{
 	-webkit-transition: background-color 0.2s ease, color 0.2s ease;
 	-moz-transition: background-color 0.2s ease, color 0.2s ease;
 }
-.demo-btn:hover, .code-btn:hover{
+.demo-btn:hover, .code-btn:hover, .button:hover{
 	background-color: #000;
 	color: #e2f202;	
 }
@@ -149,7 +150,7 @@ nav ul li a{
 	display: block;
 	width: 100px;
 	margin: 0 auto;
-	background: url(../img/continueBtn.png) no-repeat;
+	background: url('../img/continueBtn.png') no-repeat;
 	background-size: 45px 25px;
 	background-position: 50% 100%;
 	padding-bottom: 40px;
@@ -235,4 +236,112 @@ nav ul li a{
 }
 .code-demo{
 	margin: 20px 0 20px 0;
+}
+
+/*______CONTACT ME SECTION_______*/
+
+.contact-me-bg{
+	background: #0b0c10 url('../img/contact-me.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	padding-top: 100px;
+}
+.contact-list{
+	list-style: none;	
+}
+.contact-list li{
+	text-align:center;
+	margin-bottom: 50px;
+}
+.contact-list li .fa, .contact-list li h6{
+	display: inline-block;
+	vertical-align: middle;
+}
+.contact-list li .fa{
+	font-size: 40px;
+	color: #6e6e6e;
+}
+.contact-list li h6{
+	font-size: 1.25em;
+	color: #45a29e;	
+	font-weight: 400;
+	margin-left: 5px;
+}
+.contact-list li p{
+	color: #fff;
+	margin-top: 25px;
+}
+
+/*GOOGLE FORM*/
+
+#mG61Hd{
+	margin-bottom: 60px;
+}
+
+#mG61Hd .quantumWizTextinputPaperinputInput, #mG61Hd .quantumWizTextinputPapertextareaInput{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	border:none;
+	border-bottom: 5px solid #66fcf1;
+	font-size: 1.125em;
+	outline: none;
+	font-family: Lato, Arial, Calibri, sans-serif;
+	background-color: rgba(69, 162, 158, 0.4);
+	margin-bottom: 40px;
+}
+#mG61Hd .quantumWizTextinputPaperinputInput{
+	padding: 15px 40px;
+}
+#mG61Hd .quantumWizTextinputPapertextareaInput{
+	padding: 15px 40px 110px 40px;
+}
+#mG61Hd .button{
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+footer{
+	padding-bottom: 40px;
+}
+footer p{
+	color: #aeaeae;
+}
+footer .social-btn-list{
+	list-style: none;
+	width: 166px;
+	margin: 0 auto 30px auto;
+}
+footer .social-btn-list li{
+	float: left;
+	margin-right: 20px;
+}
+footer .social-btn-list li:last-child{
+	margin-right: 0;
+}
+
+footer .social-btn-list li a{
+	display: block;
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	border-radius: 14px;
+	background-color: #e2f202;
+	text-align: center;
+	transition: background-color 0.2s ease;
+	-webkit-transition: background-color 0.2s ease;		
+	-moz-transition: background-color 0.2s ease;
+}
+footer .social-btn-list .twitter{
+	color: #00b6f1;
+}
+footer .social-btn-list .instagram{
+	color: #c32aa3;
+}
+footer .social-btn-list .facebook{
+	color: #3b5998;
+}
+footer .social-btn-list li a:hover{
+	background-color: #000;
 }
