@@ -1,4 +1,4 @@
-/*/*_______FONTS______*/
+/*/*/*/*_______FONTS______*/
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400|Maven+Pro:400,500');
 
 
@@ -241,7 +241,7 @@ nav ul li a{
 /*______CONTACT ME SECTION_______*/
 
 .contact-me-bg{
-	background: #0b0c10 url('../img/contact-me.jpg') no-repeat;
+	background: #000 url('../img/contact-me.jpg') no-repeat;
 	background-position: 50% 50%;
 	background-size: cover;
 	padding-top: 100px;
@@ -344,4 +344,220 @@ footer .social-btn-list .facebook{
 }
 footer .social-btn-list li a:hover{
 	background-color: #000;
+}
+
+/*______MEDIA QUERY______*/
+@media only screen and (min-width: 600px){
+	body{
+		font-size: 1em;
+	}
+	h2{
+		font-size: 2.2em;
+	}
+	nav ul li{
+		margin-right: 60px;
+	}
+	nav ul li:last-child{
+		margin-right: 0;
+	}
+	.intro-headings h1{
+	font-size: 3em;
+	}
+	.intro-headings h4{
+	font-size: 1.1em;
+	letter-spacing: 0.3em;
+	}
+	.intro .continue-btn{
+		background-size: 54px 30px;
+		padding-bottom: 45px;
+	}
+}
+
+@media only screen and (min-width: 790px){
+	.skill{
+		max-width: none;
+		width: 30%;
+		margin-right: 5%;
+		float: left;
+		padding: 100px 0;
+	}
+	.skill:last-child{
+		margin-right: 0;
+	}
+	.skills-list:after, .contact-list:after{
+	display: block;
+	content: "";
+	visibility: hidden;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	clear: both;
+	}
+	.project-visible-content{
+		padding-top: 50px;
+	}
+	.contact-list{
+		margin-bottom: 100px;
+	}
+	.contact-list li{
+		box-sizing: border-box;
+		width: 33.333333%;
+		padding :0 20px;
+		float: left;
+	}
+	footer .social-btn-list{
+		float: right;
+		margin: 0;
+	}
+	footer p{
+		float: left;
+		padding-top: 7px;
+	}
+	footer:after{
+	display: block;
+	content: "";
+	visibility: hidden;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	clear: both;
+	}
+}
+
+@media only screen and (min-width: 920px){
+	h2{
+		font-size: 3.75em;
+	}
+	.container, .container-sm{
+		padding: 0;
+	}
+	.intro{
+		padding-top: 230px;
+	}
+	.intro-headings{
+		margin-bottom: 200px;
+	}
+	.intro-headings h1{
+		font-size: 5em;
+	}
+	.intro-headings h4{
+		font-size: 1.5em;
+		letter-spacing: 0.5em;
+	}
+	.skill{
+		box-sizing: border-box;
+		width: 33.33%;
+		height: 400px;
+		margin-right: 0;
+		padding: 100px 6%;
+		position: relative;	
+	}
+	.skill.front-end{
+		background: #000 url('../img/creativity.jpg') no-repeat;
+		background-position: 50% 50%;
+	}
+	.skill.back-end{
+		background: #000 url('../img/critical.jpg') no-repeat;
+		background-position: 50% 50%;
+	}
+	.skill.gen-prog{
+		background: #000 url('../img/resiliance.jpg') no-repeat;
+		background-position: 50% 50%;
+	}
+	.skill h5{
+		font-size: 1.358em;
+		color: #fff;
+	}
+	.skill p{
+		color: #aeaeae;
+		opacity: 0;
+		transform: translate3d(0,-100px,0);
+		-webkit-transform: translate3d(0,-100px,0);
+		-moz-transform: translate3d(0,-100px,0);
+		transition: all 0.5s ease;
+	}
+	.skill .skill-divider{
+		display: block;
+		position: absolute;
+		bottom: 80px;
+		left: 50%;
+		width: 200px;
+		margin-left: -100px;
+		height: 3px;
+		border-radius:2px;
+		/*background-color: #45a29e;*/
+		background-color: #66fcf1;
+		transform: translate3d(0,-120px,0);
+		-webkit-transform: translate3d(0,-120px,0);
+		-moz-transform: translate3d(0,-120px,0);
+		transition: all 0.3s ease;
+	}
+	.skill .skill-divider:before{
+		display: block;
+		content: "";
+		position: absolute;
+		width: 7px;
+		height: 7px;
+		top:-2px;
+		left: 50%;
+		margin-left: -2px;
+		border-radius: 4px;
+		background-color: #66fcf1; 
+	}
+	.skill:hover{
+		cursor: pointer;
+	}
+	.skill:hover p{
+		opacity: 1;
+		transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-moz-transform: translate3d(0,0,0);
+	}
+	.skill:hover .skill-divider{
+		transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-moz-transform: translate3d(0,0,0);
+	}
+	.project-visible-content{
+		text-align: left;
+	}
+	.project-visible-content h3{
+		font-size: 2.25em;
+	}
+	.project-visible-content blockquote{
+		width: 65%;
+		float: left;
+	}
+	.project-visible-content .code-demo{
+		float: right;
+		text-align: right;
+	}
+	#mG61Hd{
+		width: 780px;
+		margin: 0 auto 60px auto;
+	}
+	#mG61Hd .name-input-wrap.freebirdFormviewerViewItemsTextItemWrapper{
+		float:left;
+		margin-right: 120px;
+	}
+	#mG61Hd .quantumWizTextinputPaperinputInput{
+		width: 330px;
+		margin-bottom: 40px;
+	}
+	#mG61Hd .message-input-wrap.freebirdFormviewerViewItemsTextItemWrapper{
+		clear:left;
+		margin: 0 auto 40px auto;
+	}
+	#mG61Hd .quantumWizTextinputPapertextareaInput{
+		width: 780px;
+	}
+
+}
+
+@media only screen and (min-width: 1105px){
+	/*NOTHING TO ADD*/
 }
