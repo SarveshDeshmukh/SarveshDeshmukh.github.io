@@ -118,7 +118,7 @@ nav ul li a{
 /*_______INTRO SECTION______*/
 
 .intro{
-	background: #0b0c10 url('../img/intro-bg.jpg') no-repeat;
+	background: #0b0c10 url('../img/intro-bg-act.jpg') no-repeat;
 /*	background: url('../img/coding2.png') no-repeat;*/
 	background-attachment: fixed;
 	background-size: cover;
@@ -351,6 +351,10 @@ footer .social-btn-list li a:hover{
 /*______MEDIA QUERY______*/
 @media only screen and (min-width: 600px){
 
+	html,body{
+	margin: 0;
+	padding: 0;
+	}
 	body{
 		font-size: 1em;
 	}
@@ -377,7 +381,10 @@ footer .social-btn-list li a:hover{
 }
 
 @media only screen and (min-width: 790px){
-
+    html,body{
+	margin: 0;
+	padding: 0;
+	}
 
 	.skill{
 		max-width: none;
@@ -434,7 +441,11 @@ footer .social-btn-list li a:hover{
 }
 
 @media only screen and (min-width: 920px){
-
+	html,body{
+	margin: 0;
+	padding: 0;
+    }
+	
 	.intro{
 	background: #0b0c10 url('../img/intro-bg-vHigh2.jpg') no-repeat;
 	background-attachment: fixed;
@@ -577,5 +588,8 @@ footer .social-btn-list li a:hover{
 
 @media only screen and (min-width: 1105px){
 
-	/*NOTHING TO ADD*/
+	html,body{
+	margin: 0;
+	padding: 0;
+}/*NOTHING TO ADD*/
 }
