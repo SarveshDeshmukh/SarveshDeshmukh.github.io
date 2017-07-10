@@ -4,15 +4,16 @@
 
 /*_______GENERAL______*/
 
-html,body{
+
+html {
 	margin: 0;
 	padding: 0;
-}
-html {
     font-size: 16px;
 }
 
 body{
+	margin: 0;
+	padding: 0;
 	font-size: 0.875em;
 	font-family: Lato, Arial, Calibri, sans-serif;
 	background-color: #c5c6c7;
