@@ -4,17 +4,20 @@
 
 /*_______GENERAL______*/
 
-html{
+html,body{
 	margin: 0;
-	font-size: 16px;
+	padding: 0;
 }
+html {
+    font-size: 16px;
+}
+
 body{
-	margin: 0;
 	font-size: 0.875em;
 	font-family: Lato, Arial, Calibri, sans-serif;
 	background-color: #c5c6c7;
 }
-h1,h2,h3,h4,h5{
+h1, h2, h3, h4, h5{
 	font-family: Maven Pro, Calibri, Arial, sans-serif;
 	font-weight: 400;
 }
@@ -347,10 +350,6 @@ footer .social-btn-list li a:hover{
 
 /*______MEDIA QUERY______*/
 @media only screen and (min-width: 600px){
-	body,html{
-		margin: 0;
-		padding:0;
-	}
 
 	body{
 		font-size: 1em;
@@ -378,11 +377,7 @@ footer .social-btn-list li a:hover{
 }
 
 @media only screen and (min-width: 790px){
-	
-	body,html{
-		margin: 0;
-		padding:0;
-	}
+
 
 	.skill{
 		max-width: none;
@@ -439,13 +434,9 @@ footer .social-btn-list li a:hover{
 }
 
 @media only screen and (min-width: 920px){
-	body,html{
-		margin: 0;
-		padding:0;
-	}
 
 	.intro{
-	background: #0b0c10 url('../img/intro-bg-vHigh.jpg') no-repeat;
+	background: #0b0c10 url('../img/intro-bg-vHigh2.jpg') no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -585,9 +576,6 @@ footer .social-btn-list li a:hover{
 }
 
 @media only screen and (min-width: 1105px){
-	body,html{
-		margin: 0;
-		padding:0;
-	}
+
 	/*NOTHING TO ADD*/
 }
