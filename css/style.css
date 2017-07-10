@@ -3,9 +3,9 @@
 
 
 /*_______GENERAL______*/
-*{
-	margin: 0;
-	padding: 0;
+html,body {
+	padding:0; 
+	margin:0;
 }
 
 html{
@@ -198,8 +198,9 @@ nav ul li a{
 
 /*_______RECENT PROJECTS______*/
 
-.recent-projects{
+.recent-projects-list{
 	list-style: none;	
+}
 }
 .recent-projects .container{
 	padding : 0;
