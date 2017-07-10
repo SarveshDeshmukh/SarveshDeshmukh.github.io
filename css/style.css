@@ -429,6 +429,16 @@ footer .social-btn-list li a:hover{
 }
 
 @media only screen and (min-width: 920px){
+	
+	.intro{
+	background: #0b0c10 url('../img/intro-bg-vHigh.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	padding-top: 150px;
+	padding-bottom: 120px;
+	text-align: center;
+    }
 	h2{
 		font-size: 3.75em;
 	}
@@ -456,6 +466,7 @@ footer .social-btn-list li a:hover{
 		padding: 100px 6%;
 		position: relative;	
 	}
+
 	.skill.front-end{
 		background: #000 url('../img/creativity.jpg') no-repeat;
 		background-position: 50% 50%;
@@ -516,6 +527,7 @@ footer .social-btn-list li a:hover{
 		transform: translate3d(0,0,0);
 		-webkit-transform: translate3d(0,0,0);
 		-moz-transform: translate3d(0,0,0);
+		 background-color: rgba(11, 12, 16, 0.8);
 	}
 	.skill:hover .skill-divider{
 		transform: translate3d(0,0,0);
