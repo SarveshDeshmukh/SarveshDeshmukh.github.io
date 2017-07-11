@@ -7,8 +7,16 @@ $(window).load(function(){
 	$('.section').delay(10000).fadeOut(15000);
 
 	$('#preloader').delay(10000).fadeOut(5000,function(){
-		$('nav').css('opacity',1);
-		$('.social-head li').css('opacity',1);
+		/*$('nav').css('opacity',1);*/
+		$('nav').animate({
+            opacity: 1
+        }, 500);
+  
+		/*$('.social-head li').css('opacity',1);*/
+		$('.social-head li').animate({
+            opacity: 1
+        }, 500);
+  
 		$(window).off('scroll');
 
 	});  	 	
