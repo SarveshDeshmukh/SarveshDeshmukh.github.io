@@ -8,14 +8,18 @@ $(window).load(function(){
 
 	$('#preloader').delay(10000).fadeOut(5000,function(){
 		/*$('nav').css('opacity',1);*/
-		$('nav').animate({
+		$('nav, .social-head li , #section06 ').animate({
             opacity: 1
         }, 500);
-  
-		/*$('.social-head li').css('opacity',1);*/
+ /*
 		$('.social-head li').animate({
             opacity: 1
         }, 500);
+
+		$('#section06').animate({
+            opacity: 1
+        }, 500);*/
+        
   
 		$(window).off('scroll');
 
@@ -29,7 +33,7 @@ $(window).load(function(){
         projectVisibleContent = $('.project-visible-content'),
         projectExtraToggleBtn = projectVisibleContent.find('.project-extra-toggle'),
         nav = $('nav'),
-        navigateElems = $('nav li a, .continue-btn'),
+        navigateElems = $('nav li a, .continue-btn-scroll'),
         htmlBody = $('html, body'),
         introBg = $('.intro');
         lastScrollTop = 0;
@@ -49,6 +53,7 @@ $(window).load(function(){
 		});
         
          navigateElems.on('click', function(e) {
+         	console.log(this);
         var targetElem = $( $(this).data('scroll-target') ),
             targetOffsetTop = targetElem.offset().top;
         
