@@ -83,6 +83,7 @@ p{
 
 /*_______NAV______*/
 nav{
+	opacity: 0;
 	position: fixed;
 	z-index: 10000;
 	top: 0;
@@ -160,6 +161,28 @@ nav ul li a{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #e2f202;
+}
+.fa-stack{
+	margin-top: -20px;
+}
+.fa-stack-2x{
+	opacity: 0.2;
+}
+.fa-circle-o{
+	color: #848485;
+	background-color: #848485;
+}
+.social-list-head{
+	list-style: none;
+}
+.social-head{
+	padding: 0;
+	margin: 5px 0 0 -5px;
+
+}
+.social-head li {
+	display: inline-block;
+	opacity: 0;
 }
 
 /*_______ABOUT SECTION______*/
@@ -594,3 +617,79 @@ footer .social-btn-list li a:hover{
 	padding: 0;
 }/*NOTHING TO ADD*/
 }
+
+/*CLOCK ANIMATION*/
+
+#preloader{
+	position: fixed;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background :#000;
+}
+.section {
+                height: 800px;
+                margin-bottom: 500px;
+                background-color: #000;
+                overflow: hidden;
+                font-family: 'Titillium Web', Calibri, sans-serif;
+            }
+            h1.clock-heading {
+                color: #fff;
+                text-align: center;
+                font-weight: 100;
+                font-size: 60px;
+                margin-top: 100px;
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+                animation: clockHeadingAnimation 10s ease;
+            }
+            .clock-wrapper {
+                position: relative;
+                width: 400px;
+                height: 400px;
+                margin: 100px auto 0 auto;
+                transform: scale(1.4) translate3d(0, 100px, 0);
+                animation: clockAnimation 10s ease;
+            }
+            .clock-wrapper .clock-img {
+                position: absolute;
+                width: 100%;
+                height: auto;
+            }
+            
+            .clock-wrapper .clock-img.hours {
+                transform: rotate(120deg);
+                animation: hoursAnimation 10s ease;
+            }
+            @keyframes hoursAnimation {
+                0% { transform: rotate(0); }
+                100% { transform: rotate(120deg); }
+            }
+            .clock-wrapper .clock-img.minutes {
+                transform: rotate(1470deg);
+                animation: minutesAnimation 10s ease;
+            }
+            @keyframes minutesAnimation {
+                0% { transform: rotate(30deg); }
+                100% { transform: rotate(1470deg); }
+            }
+            .clock-wrapper .clock-img.seconds {
+                transform: rotate(26610deg);
+                animation: secondsAnimation 10s ease;
+            }
+            @keyframes secondsAnimation {
+                0% { transform: rotate(210deg); }
+                100% { transform: rotate(26610deg); }
+            }
+            
+            @keyframes clockAnimation {
+                0% { transform: scale(1) translate3d(0, 0, 0); }
+                100% { transform: scale(1.4) translate3d(0, 100px, 0); }
+            }
+            @keyframes clockHeadingAnimation {
+                0% { opacity: 0; transform: translate3d(0, 100px, 0); }
+                90% { opacity: 0; transform: translate3d(0, 100px, 0); }
+                100% { opacity: 1; transform: translate3d(0, 0, 0); }
+            }
