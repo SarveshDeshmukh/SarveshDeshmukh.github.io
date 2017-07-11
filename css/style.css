@@ -1,5 +1,7 @@
 /*/*/*/*_______FONTS______*/
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400|Maven+Pro:400,500');
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
 
 
 /*_______GENERAL______*/
@@ -62,10 +64,12 @@ p{
 	text-decoration: none;
 	color: #000;
 	font-family: Maven Pro, Calibri, Arial, sans-serif;
+	font-weight: bolder;
 	font-size: 0.875em;
 	padding: 8px 11px;
 	border-radius: 10px;
-	background-color: #e2f202;
+	/*background-color: #e2f202;*/
+	background-color:#02f2c3;
 	transition: background-color 0.2s ease, color 0.2s ease;
 	-webkit-transition: background-color 0.2s ease, color 0.2s ease;
 	-moz-transition: background-color 0.2s ease, color 0.2s ease;
@@ -293,7 +297,17 @@ section h1 {
 }
 
 .about p{
+	font-family: Maven Pro, Calibri, Arial, sans-serif;
 	color: #e0e0e0;
+}
+.uf{
+	color: #0021A4;
+	background-color: #FA4616;
+	font-weight: bolder;
+}
+.programming-abt{
+	font-family: 'Aldrich', sans-serif;
+	color: gray;
 }
 
 /*_______SKILLS SECTION______*/
@@ -317,6 +331,7 @@ section h1 {
 	color: #6e6e6e;
 	font-size: 0.875em;
 }
+
 
 /*_______RECENT PROJECTS______*/
 
@@ -450,7 +465,7 @@ footer .social-btn-list li a{
 	height: 42px;
 	line-height: 42px;
 	border-radius: 14px;
-	background-color: #e2f202;
+	background-color: #c5c6c7;
 	text-align: center;
 	transition: background-color 0.2s ease;
 	-webkit-transition: background-color 0.2s ease;		
