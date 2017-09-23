@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5{
 h2{
 	font-size: 2em;
 	margin-bottom: 20px;
-	color: #1f2833; 
+	color: #1f2833;
 }
 
 p{
@@ -52,7 +52,7 @@ p{
 .container-sm{
 	max-width: 700px;
 	margin: 0 auto;
-	padding: 0 20px;	
+	padding: 0 20px;
 }
 
 .demo-btn, .code-btn, .button{
@@ -76,7 +76,7 @@ p{
 }
 .demo-btn:hover, .code-btn:hover, .button:hover{
 	background-color: #000;
-	color: #e2f202;	
+	color: #e2f202;
 }
 .about, .skills, .recent-projects, .contact-me {
 	padding-top: 100px;
@@ -336,7 +336,7 @@ section h1 {
 /*_______RECENT PROJECTS______*/
 
 .recent-projects-list{
-	list-style: none;	
+	list-style: none;
 }
 }
 .recent-projects .container{
@@ -353,7 +353,7 @@ section h1 {
 }
 
 .project.chrome .project-visible-content{
-	background-image: url('../img/extension.jpg');
+	background-image: url('../img/bot.jpg');
 }
 .project.color-game .project-visible-content{
 	background-image: url('../img/color-game.jpg');
@@ -385,7 +385,7 @@ section h1 {
 	padding-top: 100px;
 }
 .contact-list{
-	list-style: none;	
+	list-style: none;
 }
 .contact-list li{
 	text-align:center;
@@ -401,7 +401,7 @@ section h1 {
 }
 .contact-list li h6{
 	font-size: 1.25em;
-	color: #45a29e;	
+	color: #45a29e;
 	font-weight: 400;
 	margin-left: 5px;
 }
@@ -468,7 +468,7 @@ footer .social-btn-list li a{
 	background-color: #c5c6c7;
 	text-align: center;
 	transition: background-color 0.2s ease;
-	-webkit-transition: background-color 0.2s ease;		
+	-webkit-transition: background-color 0.2s ease;
 	-moz-transition: background-color 0.2s ease;
 }
 footer .social-btn-list .twitter{
@@ -516,7 +516,7 @@ footer .social-btn-list li a:hover{
 	}
 
 	.fa-stack{
-		font-size: 1em; 
+		font-size: 1em;
 	}
 }
 
@@ -589,7 +589,7 @@ footer .social-btn-list li a:hover{
 	margin: 0;
 	padding: 0;
     }
-	
+
 	.intro{
 	background: #0b0c10 url('../img/intro-bg-vHigh2.jpg') no-repeat;
 	background-attachment: fixed;
@@ -624,7 +624,7 @@ footer .social-btn-list li a:hover{
 		height: 400px;
 		margin-right: 0;
 		padding: 100px 6%;
-		position: relative;	
+		position: relative;
 	}
 
 	.skill.front-end{
@@ -677,7 +677,7 @@ footer .social-btn-list li a:hover{
 		left: 50%;
 		margin-left: -2px;
 		border-radius: 4px;
-		background-color: #66fcf1; 
+		background-color: #66fcf1;
 	}
 	.skill:hover{
 		cursor: pointer;
@@ -779,7 +779,7 @@ footer .social-btn-list li a:hover{
                 width: 100%;
                 height: auto;
             }
-            
+
             .clock-wrapper .clock-img.hours {
                 transform: rotate(120deg);
                 animation: hoursAnimation 10s ease;
@@ -804,7 +804,7 @@ footer .social-btn-list li a:hover{
                 0% { transform: rotate(210deg); }
                 100% { transform: rotate(26610deg); }
             }
-            
+
             @keyframes clockAnimation {
                 0% { transform: scale(1) translate3d(0, 0, 0); }
                 100% { transform: scale(1.4) translate3d(0, 100px, 0); }
